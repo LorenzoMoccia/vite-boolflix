@@ -1,14 +1,13 @@
 <template>
     <div>
-        <input type="text" placeholder="Inizia la ricerca...">
-        <button>Search</button>
+  
     </div>
   </template>
   
   <script>
   
   export default{
-    name: "AppHeader",
+  
   }
   
   </script>

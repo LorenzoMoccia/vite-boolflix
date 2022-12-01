@@ -1,14 +1,18 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+<script>
+import AppHeader from './components/AppHeader.vue';
 import AppHeader from './components/AppHeader.vue'
+
+export default{
+    components: { AppHeader }
+}
+
 </script>
 
 <template>
   <AppHeader/>
-  
 </template>
 
-<style scoped>
 
+
+<style lang="scss" scoped>
 </style>
